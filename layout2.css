@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer,
+article,
+aside,
+section {
+    border: 3px solid black;
+}
+
+header,
+footer,
+article {
+    clear: both;
+}
+
+header,
+footer {
+    height: 100px;
+}
+
+section,
+aside {
+    height: 300px;
+    float: left;
+}
+
+aside {
+    width: 33.3333%;
+}
+
+section {
+    width: 66.6666%;
+}
+
+article {
+    height: 200px;
+}
