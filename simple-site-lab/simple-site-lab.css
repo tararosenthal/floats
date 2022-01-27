@@ -11,10 +11,9 @@ footer {
 body {
     background: #87ceec;
     border: 4px solid #48cd30;
-    margin: auto;
-    margin-top: 2em;
+    margin: 2em;
     height: 645px;
-    max-width: 625px;
+    width: 625px;
     padding: 1em 2em 2em 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
