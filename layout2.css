@@ -1,3 +1,7 @@
+/******************************
+            Layout
+*******************************/
+
 * {
     box-sizing: border-box;
 }
@@ -37,4 +41,21 @@ section {
 
 article {
     height: 200px;
+}
+
+/******************************
+        Responsiveness
+*******************************/
+
+@media screen and (max-width: 699px) {
+    section,
+    aside {
+        clear: both;
+        width: 100%;
+    }
+
+    aside {
+        height: 0;
+        border: 0 solid white;
+    }
 }

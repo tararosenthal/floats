@@ -1,3 +1,7 @@
+/******************************
+            Layout
+*******************************/
+
 * {
     box-sizing: border-box;
 }
@@ -29,3 +33,40 @@ article {
     width: 40%;
 }
 
+/******************************
+        Responsiveness
+*******************************/
+
+@media screen and (max-width: 699px) {
+    section,
+    article {
+        clear: both;
+        width: 100%;
+    }
+
+    .pair,
+    .loner {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .pair {
+        width: 50%;
+        height: 300px;
+    }
+
+    .loner,
+    article {
+        clear: both;
+        width: 100%;
+    }
+
+    article {
+        height: 300px;
+    }
+
+    .loner {
+        height: 150px;
+    }
+}
