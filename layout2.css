@@ -55,7 +55,6 @@ article {
     }
 
     aside {
-        height: 0;
-        border: 0 solid white;
+        display: none;
     }
 }
